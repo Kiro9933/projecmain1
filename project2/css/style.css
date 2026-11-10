@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    font-size: 1em;
+    font-family: "Rubik Maps", system-ui;
+    color: rgb(163, 0, 0);
+}
+h1,h2,h3{
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+    background-color: rgb(248, 128, 218);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(163, 0, 0);
+}
+footer {
+    background-color: rgb(255, 215, 0);
+    padding: 30px 20px;
+    color: rgb(163, 0, 0);
+}
+#about {
+    background-color: rgb(154, 205, 50);
+    padding: 20px;
+    text-align: center;
+    color: rgb(163, 0, 0);
+}
+#articles{
+    background-color: rgb(0, 191, 255);
+    padding: 20px;
+    color: rgb(163, 0, 0);
+}
+p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    margin-bottom: 3rem;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+ol {
+    padding-left: 2rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+a {
+    color:rgb(146, 0, 90)
+}
+section{
+    padding:20px ;
+}
+nav a:visited{
+    color: blue;
+}
+
+nav a:hover{
+    color: rgb(184, 3, 3);
+    text-decoration: underline;
+}
+nav a:focus{
+    color: aquamarine;
+    transform: scale(1.2);
+}
+nav a:active{
+    color: blueviolet;
+}
+nav a:link{
+    color: brown;
+}
+nav a{
+    color: brown;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+#articles li:nth-child(odd){
+    background-color: rgb(255, 255, 0);
+}
+
+#article-content p::first-line {
+    letter-spacing: ;
+    font-weight: 500;
+}
+
+
+#articles li:last-child::before {
+content: "Важно! ";
+color: #ff3333;
+font-weight: bold;
+}
+h2::after{
+    content: "new!";
+    font-size: 12px;
+    margin-left: 10px;
+    color: rgb(175, 0, 0);
+}
+.bi-xbox{
+    color: brown;
+    font-size: 32px;
+}
+#articles a::after{
+    content: "\F4FF";
+    font-family: "bootstrap-icons";
+    color: brown;
+    margin-left: 20px;
+}
+
+/*---------верстка формы-------*/
+.form-reg{
+    width: 180px;
+    margin: 20px auto;
+    background-color: rgb(0, 98, 226);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+input {
+    background-color: rgb(218, 179, 255);
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(113, 113, 255);
+
+}
+input[type=submit]{
+    background-color: rgb(252, 1, 1);
+    color: rgb(109, 3, 3);
+    padding: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+input[type=checkbox],
+input[type=radio]{
+    accent-color: rgb(241, 0, 0);
+}
+select{
+    width: 180px;
+}
+textarea{
+    width: 180px;
+}
+ /* a:visited{
+    color: blue;
+} */
+ a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+ a:hover{
+    color: rgb(184, 3, 3);
+    text-decoration: underline;
+}
+ a:focus{
+    color: aquamarine;
+    transform: scale(1.2);
+}
+ a:active{
+    color: blueviolet;
+}
+ /* a:link{
+    color: brown;
+} */
+
+
+p:lang(en){
+    font-size: 10pt;
+	color: rgb(0, 143, 143);
+}
+
+#about p::first-line{
+    letter-spacing: 5px;
+}
+.border
+{
+    border: black solid 1px;
+
+}
+h2 + figure{
+    padding-bottom: 110px;
+}
+table tbody tr td:first-child {
+    font-weight: bold;
+    background-color: #3cc805; 
+}
+
+table tbody tr:last-child td {
+    border-bottom: 2px solid #00c1b7; 
+    background-color: #4444f0;
+}
+
+table {      
+    border-collapse: collapse;
+    border: 5px solid rgb(4, 223, 113);
+}
+td:nth-child(1)
+{
+text-align:left;
+background-color:#8642da
+}
+  
+
+
+
+td, th {
+    border: 2px solid black;
+}
